@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>gradsys</name>
+    </assembly>
+    <members>
+        <member name="T:Grading_System.gradeclass">
+            <summary>
+            Represents a class for handling grading-related operations.
+            </summary>
+        </member>
+        <member name="M:Grading_System.gradeclass.GetConnection">
+            <summary>
+            Initializes a new instance of the <see cref="T:Grading_System.gradeclass"/> class.
+            </summary>
+        </member>
+        <member name="M:Grading_System.gradeclass.#ctor(System.String)">
+            <param name="sDatapath">The data path for the grading system.</param>
+        </member>
+        <member name="M:Grading_System.gradeclass.GetLoad">
+            <summary>
+            Retrieves the dataset for loading data.
+            </summary>
+            <returns>The dataset containing grading information.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.GetLoad(System.String)">
+            <summary>
+            Retrieves the dataset for loading data with a specified sort field.
+            </summary>
+            <param name="sortfield">The field used for sorting.</param>
+            <returns>The dataset containing grading information.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.clearall">
+            <summary>
+            Clears all textboxes in the form.
+            </summary>
+        </member>
+        <member name="M:Grading_System.gradeclass.SaveItem(System.String)">
+            <summary>
+            Saves an item to the database with a specified sort field.
+            </summary>
+            <param name="sortfield">The field used for sorting.</param>
+            <returns>The dataset containing the saved item.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.navigate">
+            <summary>
+            Navigates through the dataset.
+            </summary>
+            <returns>The dataset used for navigation.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.navigate(System.String)">
+            <summary>
+            Navigates through the dataset with a specified sort field.
+            </summary>
+            <param name="sortfield">The field used for sorting.</param>
+            <returns>The dataset used for navigation.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.updtedata">
+            <summary>
+            Updates data in the database.
+            </summary>
+            <returns>The dataset containing the updated data.</returns>
+        </member>
+        <member name="M:Grading_System.gradeclass.updtedata(System.String)">
+            <summary>
+            Updates data in the database with a specified sort field.
+            </summary>
+            <param name="sortfield">The field used for sorting.</param>
+            <returns>The dataset containing the updated data.</returns>
+        </member>
+        <member name="T:My.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
